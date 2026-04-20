@@ -6,7 +6,7 @@ This repository provides tools to evaluate density-enhancement blobs in images f
 
 ## Overview
 
-The provided trained model (`best.pt`) has been developed to detect blobs in static WISPR images and achieves an accuracy of **89%**.
+The provided trained model (`best.pt`) has been trained to detect blobs in static WISPR images and achieves an accuracy of **89%**.
 
 A scientific publication describing the method is currently in preparation.
 
