@@ -12,9 +12,22 @@ The provided trained model (`best.pt`) has been developed to detect blobs in sta
 
 A scientific publication describing the method is currently in preparation.
 
----
+------
+
+## Requirements
+
+Install dependencies:
+
+```bash
+pip install ultralytics opencv-python matplotlib numpy astropy
+```
+------
 
 ## Getting Started
+
+### 0. Dowload the right fits files
+
+The model has been trained on LW data from WISPR, so we highly suggest to use it on the fits file that can be dowloaded here: https://wispr.nrl.navy.mil/data/rel/fits/LW
 
 ### 1. Convert FITS Files to PNG
 
@@ -29,7 +42,7 @@ Save all converted `.png` files into a folder of your choice.
 Example:
 
 ```bash
-dataset/images/test/
+dataset/images/evaluation_dataset/
 ```
 
 ### 3. Configure the Evaluation Script
@@ -91,15 +104,7 @@ Blob_detection/
 │── outputs/
 ```
 
----
 
-## Requirements
-
-Install dependencies:
-
-```bash
-pip install ultralytics opencv-python matplotlib numpy astropy
-```
 
 ---
 
