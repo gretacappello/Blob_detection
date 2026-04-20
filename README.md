@@ -18,7 +18,7 @@ A scientific publication describing the method is currently in preparation.
 
 ### 1. Convert FITS Files to PNG
 
-Before running the detection model, convert your `.fits` files into `.png` format using the provided conversion script.
+Before running the detection model, convert your `.fits` files into `.png` format using the provided conversion script (fits_png_converter.py).
 
 This step is required to ensure compatibility with the deep-learning pipeline.
 
