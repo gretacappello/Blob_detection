@@ -1,6 +1,4 @@
-# Blob Detection in WISPR Images
-
-Detection of blobs in WISPR images using a deep-learning algorithm.
+# Detection of blobs in WISPR images using a deep-learning algorithm
 
 This repository provides tools to evaluate density-enhancement blobs in images from the **Wide-field Imager for Solar Probe (WISPR)** onboard **Parker Solar Probe (PSP)**.
 
