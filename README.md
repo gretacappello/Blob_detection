@@ -67,18 +67,8 @@ python evaluate_MLblobs.py
 
 The script automatically saves:
 
-* evaluated images with bounding boxes
-* confusion matrix
-* precision / recall / mAP scores
+* ALL evaluated images with bounding boxes
 * detection summaries
-
----
-
-## Model Performance
-
-| Metric   | Value |
-| -------- | ----- |
-| Accuracy | 89%   |
 
 ---
 
@@ -87,22 +77,6 @@ The script automatically saves:
 This model has been applied statistically to **Parker Solar Probe / WISPR Encounters 1–25**.
 
 Additional scientific results will be published soon.
-
----
-
-## Repository Structure
-
-```bash
-Blob_detection/
-│── evaluate_MLblobs.py
-│── best.pt
-│── convert_fits_to_png.py
-│── dataset/
-│   └── images/
-│── outputs/
-```
-
-
 
 ---
 
