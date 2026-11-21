@@ -6,9 +6,9 @@ This repository provides tools to evaluate density-enhancement blobs in images f
 
 ## Overview
 
-The provided trained model (`best.pt`) has been trained to detect blobs in static WISPR images and achieves an accuracy of about **80%**.
-
-A scientific publication describing the method is currently in preparation.
+The provided trained model (`best.pt`) has been trained to detect blobs in static WISPR images. 
+In this repository, we provide the trained model for detection only.
+A scientific publication describing the method is currently under revision in ApJ.
 
 ------
 
@@ -76,7 +76,7 @@ The script automatically saves:
 
 This model has been applied statistically to **Parker Solar Probe / WISPR Encounters 1–25**.
 
-Additional scientific results will be published soon.
+See paper in ApJ: ...
 
 ---
 
@@ -89,5 +89,5 @@ If you use this repository in your research, please cite the upcoming publicatio
 ## Contact
 
 **Greta Cappello**
-University of Graz
-📧 [greta.cappello@uni-graz.at](mailto:greta.cappello@uni-graz.at)
+NASA GSFC
+📧 [greta.cappello@nasa.gov](mailto:greta.cappello@nasa.gov)
